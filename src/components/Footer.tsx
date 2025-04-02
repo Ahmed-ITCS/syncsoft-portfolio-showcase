@@ -83,8 +83,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Email: hello@syncsoft.dev</li>
-              <li>Phone: +1 (123) 456-7890</li>
+              <li>Email: ahmedkhawarbs@gmail.com</li>
+              <li>Phone: +966 54 948 8428</li>
               <li>Location: Remote Worldwide</li>
               <li>Hours: Monday-Friday: 9AM-6PM</li>
             </ul>

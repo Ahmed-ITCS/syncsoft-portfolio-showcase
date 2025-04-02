@@ -37,9 +37,12 @@ const About = () => {
     "JavaScript/TypeScript",
     "React & React Native",
     "Node.js & Express",
-    "Flutter & Dart",
     "HTML5 & CSS3",
     "Tailwind CSS",
+    "Bootstrap",
+    "Material UI",
+    "Redux & Context API",
+    "Git & GitHub",
     "MongoDB & PostgreSQL",
     "AWS & Firebase",
     "RESTful API Design",
@@ -47,9 +50,9 @@ const About = () => {
   ];
 
   const stats = [
-    { count: "50+", label: "Projects Completed", icon: Code },
+    { count: "10+", label: "Projects Completed", icon: Code },
     { count: "20+", label: "Happy Clients", icon: Users },
-    { count: "5+", label: "Years Experience", icon: Coffee },
+    { count: "1+", label: "Years Experience", icon: Coffee },
     { count: "4.9", label: "Client Rating", icon: Star },
   ];
 

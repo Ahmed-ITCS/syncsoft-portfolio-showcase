@@ -14,17 +14,10 @@ const projects = [
     type: "web",
   },
   {
-    title: "Fitness Tracking App",
-    description: "Mobile application for tracking workouts, nutrition, and progress.",
-    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%230284c7'/%3E%3Ccircle cx='300' cy='200' r='100' fill='white'/%3E%3Crect x='275' y='150' width='50' height='100' fill='%230284c7'/%3E%3C/svg%3E",
-    tags: ["React Native", "Firebase", "Redux"],
-    type: "mobile",
-  },
-  {
     title: "Real Estate Platform",
     description: "Property listing and management system with user authentication.",
     image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%230284c7'/%3E%3Cpolygon points='300,100 400,250 200,250' fill='white'/%3E%3Crect x='270' y='250' width='60' height='80' fill='white'/%3E%3C/svg%3E",
-    tags: ["Vue.js", "Django", "PostgreSQL"],
+    tags: ["reactnative.js", "Django", "PostgreSQL"],
     type: "web",
   },
   {
@@ -34,20 +27,7 @@ const projects = [
     tags: ["React", "Express", "MySQL"],
     type: "web",
   },
-  {
-    title: "Delivery Driver App",
-    description: "Mobile application for delivery tracking and route optimization.",
-    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%230284c7'/%3E%3Cpath d='M200,200 L300,100 L400,200 L300,300 Z' fill='white'/%3E%3C/svg%3E",
-    tags: ["Flutter", "Node.js", "Google Maps API"],
-    type: "mobile",
-  },
-  {
-    title: "Social Media Dashboard",
-    description: "Analytics dashboard for monitoring social media performance.",
-    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%230284c7'/%3E%3Crect x='150' y='100' width='300' height='200' rx='20' ry='20' fill='white'/%3E%3Cline x1='200' y1='150' x2='400' y2='150' stroke='%230284c7' stroke-width='15'/%3E%3Cline x1='200' y1='200' x2='350' y2='200' stroke='%230284c7' stroke-width='15'/%3E%3Cline x1='200' y1='250' x2='300' y2='250' stroke='%230284c7' stroke-width='15'/%3E%3C/svg%3E",
-    tags: ["Angular", "Express", "Chart.js"],
-    type: "web",
-  },
+ 
 ];
 
 const Portfolio = () => {

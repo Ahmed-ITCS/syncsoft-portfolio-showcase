@@ -69,14 +69,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'hello@syncsoft.dev',
-      action: 'mailto:hello@syncsoft.dev',
+      details: 'ahmedkhawarbs@gmail.com',
+      action: 'mailto:ahmedkhawarbs@gmail.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      details: '+1 (123) 456-7890',
-      action: 'tel:+11234567890',
+      details: '+966 54 948 8428',
+      action: 'tel:+966549488428',
     },
     {
       icon: MapPin,
