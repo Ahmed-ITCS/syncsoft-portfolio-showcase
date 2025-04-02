@@ -1,6 +1,6 @@
 
 import { useState, useEffect, useRef } from 'react';
-import { ExternalLink, Code, Smartphone } from 'lucide-react';
+import { ExternalLink, Code, Smartphone, Globe } from 'lucide-react';
 import { Card, CardContent, CardFooter } from './ui/card';
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
