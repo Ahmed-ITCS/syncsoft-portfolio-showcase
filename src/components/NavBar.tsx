@@ -39,8 +39,12 @@ const NavBar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold text-syncsoft-700">
-          <span className="text-syncsoft-600">Sync</span>Soft
+        <a href="#home" className="flex items-center">
+          <img 
+            src="/lovable-uploads/f76d3d03-d546-40de-bd4e-e24a0eaefe97.png" 
+            alt="SyncSoft Logo" 
+            className="h-12 w-auto"
+          />
         </a>
 
         {/* Desktop Navigation */}
