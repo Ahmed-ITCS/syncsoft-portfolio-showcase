@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, chevron-down } from 'lucide-react';
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -69,7 +68,7 @@ const NavBar = () => {
                   <button className="flex items-center text-gray-700 hover:text-syncsoft-500 transition-all font-semibold px-3 py-1.5 rounded-xl hover:bg-syncsoft-100/60 ring-2 ring-transparent focus:outline-none focus:ring-2 focus:ring-syncsoft-300/80 shadow-sm hover:scale-105 duration-150">
                     Services
                     <span className="ml-1">
-                      <ChevronDown className="h-4 w-4" />
+                      <chevron-down className="h-4 w-4" />
                     </span>
                   </button>
                 </DropdownMenuTrigger>
@@ -131,7 +130,7 @@ const NavBar = () => {
                   <Button variant="ghost" className="w-full flex justify-between items-center font-bold text-gray-700 hover:bg-syncsoft-100/80">
                     Services
                     <span className="ml-2">
-                      <ChevronDown className="h-4 w-4" />
+                      <chevron-down className="h-4 w-4" />
                     </span>
                   </Button>
                 </DropdownMenuTrigger>
