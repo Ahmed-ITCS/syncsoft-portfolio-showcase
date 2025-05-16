@@ -9,51 +9,43 @@ import {
   RefreshCw 
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { useNavigate } from 'react-router-dom';
 
 const services = [
   {
     title: 'Web Development',
     description: 'Custom websites and web applications with modern technologies and responsive design.',
     icon: Globe,
-    slug: 'web-development'
   },
   {
     title: 'Mobile Development',
     description: 'Native and cross-platform mobile applications for iOS and Android.',
     icon: Smartphone,
-    slug: 'mobile-development'
   },
   {
     title: 'Frontend Development',
     description: 'Pixel-perfect, responsive interfaces with React, Vue, or Angular.',
     icon: LayoutGrid,
-    slug: 'frontend-development'
   },
   {
     title: 'Backend Development',
     description: 'Scalable server solutions and APIs with Node.js, Python, or Java.',
     icon: Code,
-    slug: 'backend-development'
   },
   {
     title: 'Performance Optimization',
     description: 'Speed up your existing applications and improve user experience.',
     icon: Rocket,
-    slug: 'performance-optimization'
   },
   {
     title: 'Maintenance & Support',
     description: 'Ongoing support, updates, and improvements for your digital products.',
     icon: RefreshCw,
-    slug: 'maintenance-support'
   },
 ];
 
 const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -81,10 +73,6 @@ const Services = () => {
     };
   }, []);
 
-  const handleServiceClick = (slug: string) => {
-    navigate(`/services/${slug}`);
-  };
-
   return (
     <section
       id="services"
@@ -105,7 +93,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={service.title}
-              className={`border-none shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer ring-1 ring-syncsoft-100 hover:ring-syncsoft-300 bg-white group ${
+              className={`border-none shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 ${
                 isVisible ? 'opacity-100' : 'opacity-0'
               }`}
               style={{ 
@@ -113,16 +101,9 @@ const Services = () => {
                 transitionProperty: 'all',
                 transitionDuration: '0.5s'
               }}
-              onClick={() => handleServiceClick(service.slug)}
-              tabIndex={0}
-              onKeyPress={e => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  handleServiceClick(service.slug);
-                }
-              }}
             >
               <CardHeader className="pb-2">
-                <div className="h-12 w-12 rounded-lg bg-syncsoft-50 flex items-center justify-center mb-4 group-hover:bg-syncsoft-100 transition-colors">
+                <div className="h-12 w-12 rounded-lg bg-syncsoft-50 flex items-center justify-center mb-4">
                   <service.icon className="h-6 w-6 text-syncsoft-600" />
                 </div>
                 <CardTitle className="text-xl font-semibold">{service.title}</CardTitle>
